@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ect-common-basis-analysis"
+version = "1.0.0"
+description = "Common-basis multi-criteria analysis of 3D ECT sensitivity matrices"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+  {name = "Robert Banasiak"},
+]
+dependencies = [
+  "numpy==2.4.6",
+  "scipy==1.16.3",
+  "pandas==2.3.3",
+  "matplotlib==3.10.7",
+  "h5py==3.15.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["ect_analysis*"]

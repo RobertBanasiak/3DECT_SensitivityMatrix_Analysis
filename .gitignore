@@ -1,0 +1,21 @@
+.idea/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Generated publication outputs
+SIMPAT_results/
+
+# Prevent accidental publication of native matrices until sharing rights and
+# the archival-data strategy have been confirmed. Curated test data may later
+# be placed under matrices/test/.
+matrices/*.mat
+!matrices/test/
+!matrices/test/**
+
+# Operating-system files
+.DS_Store
+Thumbs.db
