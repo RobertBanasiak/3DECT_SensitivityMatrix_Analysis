@@ -37,13 +37,6 @@ The main package versions used in the reported analysis are:
 Exact runtime dependencies are listed in `requirements.txt` and
 `pyproject.toml`.
 
-## Installation
-
-Create a Python 3.12 virtual environment and install the required packages:
-
-```bash
-pip install -r requirements.txt
-
 ## Archival release
 
 The exact software version associated with the manuscript has been archived
@@ -69,3 +62,10 @@ Citation metadata are also provided in `CITATION.cff`.
 
 This software is released under the BSD 3-Clause License. See `LICENSE` for
 details.
+
+## Installation
+
+Create a Python 3.12 virtual environment and install the required packages:
+
+```bash
+pip install -r requirements.txt
