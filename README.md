@@ -43,8 +43,3 @@ Create a Python 3.12 virtual environment and install the required packages:
 
 ```bash
 pip install -r requirements.txt
-
-## Licence
-
-This software is released under the BSD 3-Clause License. See `LICENSE` for
-details.
