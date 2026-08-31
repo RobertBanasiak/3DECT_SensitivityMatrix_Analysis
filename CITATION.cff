@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+
+title: "Common-basis analysis of three-dimensional ECT sensor and measurement designs"
+version: 1.0.0
+
+authors:
+  - family-names: "Banasiak"
+    given-names: "Robert"
+
+license: "BSD-3-Clause"
+
+repository-code: "https://github.com/RobertBanasiak/3DECT_SensitivityMatrix_Analysis"
+
+keywords:
+  - electrical capacitance tomography
+  - ECT
+  - three-dimensional imaging
+  - sensitivity analysis
+  - sensor design
+  - measurement selection
+  - inverse problems
+  - finite element method
+  - reproducible research
