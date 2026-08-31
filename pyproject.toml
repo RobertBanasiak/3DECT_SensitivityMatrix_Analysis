@@ -5,19 +5,37 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ect-common-basis-analysis"
 version = "1.0.0"
-description = "Common-basis multi-criteria analysis of 3D ECT sensitivity matrices"
+description = "Common-basis analysis of three-dimensional ECT sensor and measurement designs"
 readme = "README.md"
 requires-python = ">=3.12"
+license = {file = "LICENSE"}
+
 authors = [
-  {name = "Robert Banasiak"},
+    {name = "Robert Banasiak"},
 ]
+
+keywords = [
+    "electrical capacitance tomography",
+    "ECT",
+    "three-dimensional imaging",
+    "sensitivity analysis",
+    "sensor design",
+    "measurement selection",
+    "inverse problems",
+    "finite element method",
+]
+
 dependencies = [
-  "numpy==2.4.6",
-  "scipy==1.16.3",
-  "pandas==2.3.3",
-  "matplotlib==3.10.7",
-  "h5py==3.15.1",
+    "numpy==2.4.6",
+    "scipy==1.16.3",
+    "pandas==2.3.3",
+    "matplotlib==3.10.7",
+    "h5py==3.15.1",
 ]
+
+[project.urls]
+Repository = "https://github.com/RobertBanasiak/3DECT_SensitivityMatrix_Analysis"
+Dataset = "https://doi.org/10.5281/zenodo.21409630"
 
 [tool.setuptools.packages.find]
 include = ["ect_analysis*"]
