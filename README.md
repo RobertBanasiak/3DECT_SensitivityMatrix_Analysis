@@ -43,3 +43,29 @@ Create a Python 3.12 virtual environment and install the required packages:
 
 ```bash
 pip install -r requirements.txt
+
+## Archival release
+
+The exact software version associated with the manuscript has been archived
+as release `v1.0.0` in Zenodo:
+
+https://doi.org/10.5281/zenodo.22209591
+
+This archived release provides a permanent and immutable record of the
+analysis code corresponding to the reported study. The GitHub repository
+remains the actively maintained development repository.
+
+## Citation
+
+If you use this software, please cite the archived Zenodo release:
+
+> Banasiak, R. (2026). *Common-basis analysis of three-dimensional ECT sensor
+> and measurement designs* (Version 1.0.0). Zenodo.
+> https://doi.org/10.5281/zenodo.22209591
+
+Citation metadata are also provided in `CITATION.cff`.
+
+## Licence
+
+This software is released under the BSD 3-Clause License. See `LICENSE` for
+details.
