@@ -3,6 +3,8 @@ message: "If you use this software, please cite it using the metadata below."
 
 title: "Common-basis analysis of three-dimensional ECT sensor and measurement designs"
 version: 1.0.0
+doi: "10.5281/zenodo.22209591"
+date-released: 2026-08-31
 
 authors:
   - family-names: "Banasiak"
