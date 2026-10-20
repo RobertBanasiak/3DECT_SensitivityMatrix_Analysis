@@ -1,0 +1,16 @@
+label,path,n_cells,n_vertices,n_channels,r_max_mm,z_min_mm,z_max_mm
+A,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshA.mat,479751,87805,496,75.000000000000028,0,315
+B,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshB.mat,62362,12344,496,75.000000000000014,0,315
+C,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshC.mat,8161,1856,496,75.000000000000014,0,315
+D,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshD.mat,128745,31045,496,75.000000000000028,0,315
+E,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshE.mat,61760,12227,496,75.000000000000014,0,315
+F,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshF.mat,61944,12187,496,75.000000000000028,0,315
+G,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshG.mat,62517,12341,496,75.000000000000014,0,315
+H,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshH.mat,62296,12312,496,75.000000000000014,0,315
+I,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshI.mat,61648,12202,496,75.000000000000028,0,315
+J,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshJ.mat,62362,12344,496,75.000000000000014,0,315
+K,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshK.mat,62362,12344,496,75.000000000000014,0,315
+L,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshL.mat,62362,12344,496,75.000000000000014,0,315
+M,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshM.mat,62362,12344,496,75.000000000000014,0,315
+N,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshN.mat,62362,12344,496,75.000000000000014,0,315
+O,C:\Users\Robert\PycharmProjects\3DECT_SensitivityMatrix_Analysis\matrices\meshO.mat,62362,12344,496,75.000000000000014,0,315

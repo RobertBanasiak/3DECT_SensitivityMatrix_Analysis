@@ -1,0 +1,189 @@
+{
+  "created_utc": "2026-10-15T09:30:01.942413+00:00",
+  "complete": true,
+  "error": null,
+  "primary_run": "C:\\Users\\rbana\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\q512_revision_results\\run_20261013T173538_632316Z",
+  "configuration_source": "main.py PYCHARM_CONFIG",
+  "parameters": {
+    "input_dir": "C:\\Users\\rbana\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices",
+    "output_dir": "C:\\Users\\rbana\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\SIMPAT_results",
+    "files": null,
+    "allow_missing": false,
+    "mesh_unit": "mm",
+    "sensitivity_kind": "density",
+    "dtype": "float64",
+    "grid_r": 10,
+    "grid_theta": 16,
+    "grid_z": 20,
+    "score_noise_std": 1.0,
+    "alpha_rel": 0.001,
+    "alpha_sweep": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "subset_k": 128,
+    "analyses": "global,groups,subsets,phantoms",
+    "phantom_radius_mm": 20.0,
+    "phantom_r_samples": 3,
+    "phantom_theta_samples": 4,
+    "phantom_z_samples": 5,
+    "phantom_noise_repeats": 5,
+    "phantom_noise_rel": 0.01,
+    "phantom_lambda_rel": 0.01,
+    "phantom_threshold": 0.5,
+    "phantom_min_bins": 2,
+    "phantom_subsamples_per_axis": 3,
+    "phantom_min_volume_ratio": 0.8,
+    "bootstrap_samples": 2000,
+    "seed": 123,
+    "figure_dpi": 300,
+    "self_test": false
+  },
+  "options": {
+    "self_test": false,
+    "primary_run": null,
+    "input_dir": null,
+    "output_dir": null,
+    "q512_block_cells": 4096,
+    "q512_point_budget": 262144
+  },
+  "source_sha256": {
+    "run_q512_revision.py": "65501f4265bfb508be5a45bc779e4ed3d55b928ce9c3cf1e61e66afbed693c5f",
+    "main.py": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+    "analyze_mapping_sensitivity.py": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+    "ect_analysis/__init__.py": "7bb8bcb9dfc48db7721ddd65725f26c1a1c0f9af0d49835ee1b3aa4500385d0b",
+    "ect_analysis/channels.py": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+    "ect_analysis/cli.py": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+    "ect_analysis/constants.py": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+    "ect_analysis/mesh.py": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+    "ect_analysis/metrics.py": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+    "ect_analysis/models.py": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+    "ect_analysis/phantoms.py": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+    "ect_analysis/pipeline.py": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+    "ect_analysis/plotting.py": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+    "ect_analysis/reporting.py": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+    "ect_analysis/selftest.py": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+    "run_q512_model_mismatch.py": "693ea11a2a4672c3ecb848a9922b4553c54de97a6c14cbbebc187410240ebb96",
+    "run_q512_selection_revision.py": "f238300c0256495c81c4930fae02f3e5a870e2026b451e0728f8557b3580a403"
+  },
+  "software": {
+    "python": "3.14.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6"
+  },
+  "mapping": {
+    "quadrature_points_per_tetra": 512,
+    "subdivision_level": 3,
+    "basis_policy": "frozen_original_centroid_common_evaluation_domain",
+    "expected_basis_parameters": 2851,
+    "expected_fixed_basis_mask_sha256": "9e39d980294e2de86bb10618e924d32100fe77a6483328d448646142b3db8338",
+    "shared_alpha_policy": "recalibrated_once_from_Q512_operators_with_original_rule",
+    "mapped_native_volume_fraction_scope": "frozen_evaluation_basis",
+    "fixed_basis_parameters": 2851,
+    "fixed_basis_mask_sha256": "9e39d980294e2de86bb10618e924d32100fe77a6483328d448646142b3db8338",
+    "bin_volume_mm3": 1739.534213462318,
+    "fixed_basis_volume_mm3": 4959412.042581068,
+    "domain_fraction_of_cylinder": 0.8909375
+  },
+  "inputs": [
+    {
+      "label": "A",
+      "path": "C:\\Users\\rbana\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshA.mat",
+      "n_cells": 479751,
+      "n_vertices": 87805,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000003,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "b932d44840540f4ecff11d2190cb22383216b40dae05c3ae4f70ce33eb5833d9"
+    },
+    {
+      "label": "B",
+      "path": "C:\\Users\\rbana\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshB.mat",
+      "n_cells": 62362,
+      "n_vertices": 12344,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "c7e5bbbbc428197a49f4d742eeaf9c7477ea6348c5ec2d8bba22d3d31fdb8590"
+    },
+    {
+      "label": "C",
+      "path": "C:\\Users\\rbana\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshC.mat",
+      "n_cells": 8161,
+      "n_vertices": 1856,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "68c3838bbfd4a47044748e5701d2be3c569b17e6503792466f375201c80d86fb"
+    }
+  ],
+  "forward_inverse_labels": [
+    "A",
+    "B",
+    "C"
+  ],
+  "all_ordered_pairs": true,
+  "noise_scenarios": {
+    "noiseless": null,
+    "iid": 0.0,
+    "shared_electrode_rho_0.25": 0.25,
+    "shared_electrode_rho_0.50": 0.5
+  },
+  "noise_covariance_rule": "R=(1-rho)*I+rho*B@B.T/2; unit diagonal",
+  "reconstruction_noise_assumption": "original unweighted identity-noise Tikhonov, including correlated scenarios",
+  "paired_reference": "matched inverse for the same forward operator and identical noisy data",
+  "summary_policy": "median across repetitions per complete target, then median across targets",
+  "bootstrap_policy": "percentile 95% interval for median paired changes; resample targets; descriptive",
+  "notes": [
+    "Different existing FEM mesh operators for cross-mesh cases; same frozen parameter basis.",
+    "Common-basis piecewise-constant target representation is retained in data generation.",
+    "No new FEM solve, independent nonlinear forward solve or experimental data.",
+    "Electrode-position uncertainty, hardware effects and reduced-channel imaging are not tested.",
+    "Noise covariance is simulated; inversion is not whitened or retuned for correlated noise.",
+    "A/B/C matched iid controls must reproduce the primary Q512 reconstruction table.",
+    "Failed reconstructions and incomplete targets are counted rather than silently removed.",
+    "Source files, native inputs, primary manuscript results and previous runs are not overwritten."
+  ],
+  "primary_matched_reconstruction_check": {
+    "status": "pass",
+    "realisations": 600,
+    "rtol": 3e-10,
+    "atol": 1e-10
+  },
+  "results": {
+    "raw_reconstructions": 5760,
+    "target_records": 1440,
+    "cases": 36,
+    "paired_metric_comparisons": 144,
+    "failed_realisations": 0,
+    "incomplete_targets": 0,
+    "export_reproducibility": "exact_float64_readback_and_recomputed_target_statistics"
+  },
+  "source_files_unchanged": true,
+  "primary_files_sha256": {
+    "run_manifest.json": "1ee610d54a1735c041b4255a7923d1c9a15bb6a7426c41c50d689c0ed7b46595",
+    "q512_revision_manifest.json": "1b460781c409b7b18ced8c1b46526bb1c5a15d07352df27d1cad5db97c1a2d22",
+    "tables/q512_fixed_basis.csv": "eaaba19c7431dbd70621b6ca37da2433c6dd1b40bb625610028d77a3755da56e",
+    "tables/phantom_positions.csv": "fe762fadb300605b2835e6b7512be14253894fdc446a9f4dc8b076e18f544534",
+    "tables/phantom_metrics_all_realisations.csv": "210f748230b07615ee920f891ee2fc4ca0f6db28ef0c4806074274bbac0085a8"
+  },
+  "output_sha256": {
+    "experiment_inputs.npz": "e8c772eae7a5aa07bc6a33991f6301fc3f6e2bf59702484d4789a777450c39eb",
+    "tables\\channel_definitions.csv": "2f864722a5bfe2ff965870be7bfd44ba37559a0dfc16194fb2974312774548be",
+    "tables\\mismatch_forward_discrepancies.csv": "5cfce2de3b4dfb19f6a637b1cfcaa70eae5ba6f9ab5c3a8bc01d71e540c85376",
+    "tables\\mismatch_mapping_diagnostics.csv": "e02d509e794f4495653a210cd77b9ed74f64a6008f95d3823d03b9dba0fcbe0c",
+    "tables\\mismatch_measurement_batches.csv": "fd8d8ba0aedabf039fd32a8327c8825ae7a5e49cdd65041f4856f01056d48715",
+    "tables\\mismatch_metrics_all_realisations.csv": "d5126c2fb3fae498d60795d7f3bd72dee82f3f02c7e71809004de38baeb821e3",
+    "tables\\mismatch_paired_changes.csv": "8612825ceeb7e75261fa7fa122a6717dc1bb145086100476cd692c89b4e72ce2",
+    "tables\\mismatch_primary_operator_checks.csv": "f34dbd104fe63946aae17e924cdab5f7147a972cfcb06ad7363ba400be3ae143",
+    "tables\\mismatch_summary.csv": "f1f4633dd6361a5ff2a0e2cc28346e6d6c484141a2c51969b0fdb4be17415bb0",
+    "tables\\mismatch_target_metrics.csv": "5a3b7ead18c88eba509333799b6c4a54a60a050b2898367e3c8234e830a39514",
+    "tables\\phantom_positions.csv": "fe762fadb300605b2835e6b7512be14253894fdc446a9f4dc8b076e18f544534"
+  },
+  "elapsed_seconds": 178.98919439999997
+}
