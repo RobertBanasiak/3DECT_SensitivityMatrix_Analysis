@@ -1,0 +1,53 @@
+{
+  "release": "1.1.0",
+  "runs": [
+    {
+      "study": "primary",
+      "original_archive": "run_20261013T173538_632316Z.zip",
+      "original_archive_sha256": "f6161097b8693de37a2ac0b13d9f482b3c44df84610b17c2571d0480cc6391f3",
+      "reference_directory": "reference_results/primary/run_20261013T173538_632316Z",
+      "complete": true,
+      "file_count": 26
+    },
+    {
+      "study": "mapping",
+      "original_archive": "run_20261013T155031_270748Z.zip",
+      "original_archive_sha256": "e452b4c3441504ef4108f1e8e8b9a1b0d46b308836fb03cad6af6ac4836b7047",
+      "reference_directory": "reference_results/mapping/run_20261013T155031_270748Z",
+      "complete": true,
+      "file_count": 9
+    },
+    {
+      "study": "baselines",
+      "original_archive": "run_20261013T201807_425028Z.zip",
+      "original_archive_sha256": "97c1f5ffdb1d637ece77a54641a38402262c1512bf43ff2e784d7aeacd353bac",
+      "reference_directory": "reference_results/baselines/run_20261013T201807_425028Z",
+      "complete": true,
+      "file_count": 20
+    },
+    {
+      "study": "stability",
+      "original_archive": "run_20261013T204022_406405Z.zip",
+      "original_archive_sha256": "a2053760f9ebddbb2f2536bc101b2f28f755b198cbf8ec50a5af3ee7b79871e8",
+      "reference_directory": "reference_results/stability/run_20261013T204022_406405Z",
+      "complete": true,
+      "file_count": 22
+    },
+    {
+      "study": "benchmark",
+      "original_archive": "run_20261015T051003_416958Z.zip",
+      "original_archive_sha256": "ca3140fca2c3fbd683f5ebf9a27838c1dfbb3f26b2a094bb82dfc6be201430c6",
+      "reference_directory": "reference_results/benchmark/run_20261015T051003_416958Z",
+      "complete": true,
+      "file_count": 28
+    },
+    {
+      "study": "model_mismatch",
+      "original_archive": "run_20261015T093001_941649Z.zip",
+      "original_archive_sha256": "552e14e74acfa743b2724802cdccc99f1a46bd8a0ce29062fc7e99221dfcdba3",
+      "reference_directory": "reference_results/model_mismatch/run_20261015T093001_941649Z",
+      "complete": true,
+      "file_count": 12
+    }
+  ]
+}

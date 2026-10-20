@@ -1,0 +1,642 @@
+{
+  "release": "1.1.0",
+  "policy": "All recorded numerical source bytes preserved; package __init__ version metadata updated explicitly.",
+  "runs": [
+    {
+      "study": "primary",
+      "reference_manifest": "reference_results/primary/run_20261013T173538_632316Z/q512_revision_manifest.json",
+      "files": [
+        {
+          "path": "run_q512_revision.py",
+          "recorded_sha256": "65501f4265bfb508be5a45bc779e4ed3d55b928ce9c3cf1e61e66afbed693c5f",
+          "release_sha256": "65501f4265bfb508be5a45bc779e4ed3d55b928ce9c3cf1e61e66afbed693c5f",
+          "status": "exact_match"
+        },
+        {
+          "path": "main.py",
+          "recorded_sha256": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+          "release_sha256": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+          "status": "exact_match"
+        },
+        {
+          "path": "analyze_mapping_sensitivity.py",
+          "recorded_sha256": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+          "release_sha256": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/__init__.py",
+          "recorded_sha256": "7bb8bcb9dfc48db7721ddd65725f26c1a1c0f9af0d49835ee1b3aa4500385d0b",
+          "release_sha256": "14bb28852bd3fc1531afeb9538caed23974ea2718473810d631cbb9bd94833b9",
+          "status": "metadata_only_version_string_1.0.0_to_1.1.0"
+        },
+        {
+          "path": "ect_analysis/channels.py",
+          "recorded_sha256": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+          "release_sha256": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/cli.py",
+          "recorded_sha256": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+          "release_sha256": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/constants.py",
+          "recorded_sha256": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+          "release_sha256": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/mesh.py",
+          "recorded_sha256": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+          "release_sha256": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/metrics.py",
+          "recorded_sha256": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+          "release_sha256": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/models.py",
+          "recorded_sha256": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+          "release_sha256": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/phantoms.py",
+          "recorded_sha256": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+          "release_sha256": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/pipeline.py",
+          "recorded_sha256": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+          "release_sha256": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/plotting.py",
+          "recorded_sha256": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+          "release_sha256": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/reporting.py",
+          "recorded_sha256": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+          "release_sha256": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/selftest.py",
+          "recorded_sha256": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+          "release_sha256": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+          "status": "exact_match"
+        }
+      ]
+    },
+    {
+      "study": "mapping",
+      "reference_manifest": "reference_results/mapping/run_20261013T155031_270748Z/mapping_manifest.json",
+      "files": [
+        {
+          "path": "analyze_mapping_sensitivity.py",
+          "recorded_sha256": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+          "release_sha256": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+          "status": "exact_match"
+        },
+        {
+          "path": "main.py",
+          "recorded_sha256": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+          "release_sha256": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/__init__.py",
+          "recorded_sha256": "7bb8bcb9dfc48db7721ddd65725f26c1a1c0f9af0d49835ee1b3aa4500385d0b",
+          "release_sha256": "14bb28852bd3fc1531afeb9538caed23974ea2718473810d631cbb9bd94833b9",
+          "status": "metadata_only_version_string_1.0.0_to_1.1.0"
+        },
+        {
+          "path": "ect_analysis/channels.py",
+          "recorded_sha256": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+          "release_sha256": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/cli.py",
+          "recorded_sha256": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+          "release_sha256": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/constants.py",
+          "recorded_sha256": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+          "release_sha256": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/mesh.py",
+          "recorded_sha256": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+          "release_sha256": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/metrics.py",
+          "recorded_sha256": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+          "release_sha256": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/models.py",
+          "recorded_sha256": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+          "release_sha256": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/phantoms.py",
+          "recorded_sha256": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+          "release_sha256": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/pipeline.py",
+          "recorded_sha256": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+          "release_sha256": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/plotting.py",
+          "recorded_sha256": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+          "release_sha256": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/reporting.py",
+          "recorded_sha256": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+          "release_sha256": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/selftest.py",
+          "recorded_sha256": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+          "release_sha256": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+          "status": "exact_match"
+        }
+      ]
+    },
+    {
+      "study": "baselines",
+      "reference_manifest": "reference_results/baselines/run_20261013T201807_425028Z/q512_selection_revision_manifest.json",
+      "files": [
+        {
+          "path": "run_q512_revision.py",
+          "recorded_sha256": "65501f4265bfb508be5a45bc779e4ed3d55b928ce9c3cf1e61e66afbed693c5f",
+          "release_sha256": "65501f4265bfb508be5a45bc779e4ed3d55b928ce9c3cf1e61e66afbed693c5f",
+          "status": "exact_match"
+        },
+        {
+          "path": "main.py",
+          "recorded_sha256": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+          "release_sha256": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+          "status": "exact_match"
+        },
+        {
+          "path": "analyze_mapping_sensitivity.py",
+          "recorded_sha256": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+          "release_sha256": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/__init__.py",
+          "recorded_sha256": "7bb8bcb9dfc48db7721ddd65725f26c1a1c0f9af0d49835ee1b3aa4500385d0b",
+          "release_sha256": "14bb28852bd3fc1531afeb9538caed23974ea2718473810d631cbb9bd94833b9",
+          "status": "metadata_only_version_string_1.0.0_to_1.1.0"
+        },
+        {
+          "path": "ect_analysis/channels.py",
+          "recorded_sha256": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+          "release_sha256": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/cli.py",
+          "recorded_sha256": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+          "release_sha256": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/constants.py",
+          "recorded_sha256": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+          "release_sha256": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/mesh.py",
+          "recorded_sha256": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+          "release_sha256": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/metrics.py",
+          "recorded_sha256": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+          "release_sha256": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/models.py",
+          "recorded_sha256": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+          "release_sha256": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/phantoms.py",
+          "recorded_sha256": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+          "release_sha256": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/pipeline.py",
+          "recorded_sha256": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+          "release_sha256": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/plotting.py",
+          "recorded_sha256": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+          "release_sha256": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/reporting.py",
+          "recorded_sha256": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+          "release_sha256": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/selftest.py",
+          "recorded_sha256": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+          "release_sha256": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+          "status": "exact_match"
+        },
+        {
+          "path": "run_q512_selection_revision.py",
+          "recorded_sha256": "f238300c0256495c81c4930fae02f3e5a870e2026b451e0728f8557b3580a403",
+          "release_sha256": "f238300c0256495c81c4930fae02f3e5a870e2026b451e0728f8557b3580a403",
+          "status": "exact_match"
+        },
+        {
+          "path": "compare_measurement_baselines.py",
+          "recorded_sha256": "3f09ba863c94fed098b939f26ada05bbee0ad3b239f4d07b3839a204707dedf1",
+          "release_sha256": "3f09ba863c94fed098b939f26ada05bbee0ad3b239f4d07b3839a204707dedf1",
+          "status": "exact_match"
+        },
+        {
+          "path": "analyze_selection_stability.py",
+          "recorded_sha256": "0718a44a56b48795cd8084f4ae7ab1df47c5c53da00781de98a76272728b3f82",
+          "release_sha256": "0718a44a56b48795cd8084f4ae7ab1df47c5c53da00781de98a76272728b3f82",
+          "status": "exact_match"
+        }
+      ]
+    },
+    {
+      "study": "stability",
+      "reference_manifest": "reference_results/stability/run_20261013T204022_406405Z/q512_selection_revision_manifest.json",
+      "files": [
+        {
+          "path": "run_q512_revision.py",
+          "recorded_sha256": "65501f4265bfb508be5a45bc779e4ed3d55b928ce9c3cf1e61e66afbed693c5f",
+          "release_sha256": "65501f4265bfb508be5a45bc779e4ed3d55b928ce9c3cf1e61e66afbed693c5f",
+          "status": "exact_match"
+        },
+        {
+          "path": "main.py",
+          "recorded_sha256": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+          "release_sha256": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+          "status": "exact_match"
+        },
+        {
+          "path": "analyze_mapping_sensitivity.py",
+          "recorded_sha256": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+          "release_sha256": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/__init__.py",
+          "recorded_sha256": "7bb8bcb9dfc48db7721ddd65725f26c1a1c0f9af0d49835ee1b3aa4500385d0b",
+          "release_sha256": "14bb28852bd3fc1531afeb9538caed23974ea2718473810d631cbb9bd94833b9",
+          "status": "metadata_only_version_string_1.0.0_to_1.1.0"
+        },
+        {
+          "path": "ect_analysis/channels.py",
+          "recorded_sha256": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+          "release_sha256": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/cli.py",
+          "recorded_sha256": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+          "release_sha256": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/constants.py",
+          "recorded_sha256": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+          "release_sha256": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/mesh.py",
+          "recorded_sha256": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+          "release_sha256": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/metrics.py",
+          "recorded_sha256": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+          "release_sha256": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/models.py",
+          "recorded_sha256": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+          "release_sha256": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/phantoms.py",
+          "recorded_sha256": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+          "release_sha256": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/pipeline.py",
+          "recorded_sha256": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+          "release_sha256": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/plotting.py",
+          "recorded_sha256": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+          "release_sha256": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/reporting.py",
+          "recorded_sha256": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+          "release_sha256": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/selftest.py",
+          "recorded_sha256": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+          "release_sha256": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+          "status": "exact_match"
+        },
+        {
+          "path": "run_q512_selection_revision.py",
+          "recorded_sha256": "f238300c0256495c81c4930fae02f3e5a870e2026b451e0728f8557b3580a403",
+          "release_sha256": "f238300c0256495c81c4930fae02f3e5a870e2026b451e0728f8557b3580a403",
+          "status": "exact_match"
+        },
+        {
+          "path": "compare_measurement_baselines.py",
+          "recorded_sha256": "3f09ba863c94fed098b939f26ada05bbee0ad3b239f4d07b3839a204707dedf1",
+          "release_sha256": "3f09ba863c94fed098b939f26ada05bbee0ad3b239f4d07b3839a204707dedf1",
+          "status": "exact_match"
+        },
+        {
+          "path": "analyze_selection_stability.py",
+          "recorded_sha256": "0718a44a56b48795cd8084f4ae7ab1df47c5c53da00781de98a76272728b3f82",
+          "release_sha256": "0718a44a56b48795cd8084f4ae7ab1df47c5c53da00781de98a76272728b3f82",
+          "status": "exact_match"
+        }
+      ]
+    },
+    {
+      "study": "benchmark",
+      "reference_manifest": "reference_results/benchmark/run_20261015T051003_416958Z/benchmark_environment.json",
+      "files": [
+        {
+          "path": "run_q512_revision.py",
+          "recorded_sha256": "65501f4265bfb508be5a45bc779e4ed3d55b928ce9c3cf1e61e66afbed693c5f",
+          "release_sha256": "65501f4265bfb508be5a45bc779e4ed3d55b928ce9c3cf1e61e66afbed693c5f",
+          "status": "exact_match"
+        },
+        {
+          "path": "main.py",
+          "recorded_sha256": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+          "release_sha256": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+          "status": "exact_match"
+        },
+        {
+          "path": "analyze_mapping_sensitivity.py",
+          "recorded_sha256": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+          "release_sha256": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/__init__.py",
+          "recorded_sha256": "7bb8bcb9dfc48db7721ddd65725f26c1a1c0f9af0d49835ee1b3aa4500385d0b",
+          "release_sha256": "14bb28852bd3fc1531afeb9538caed23974ea2718473810d631cbb9bd94833b9",
+          "status": "metadata_only_version_string_1.0.0_to_1.1.0"
+        },
+        {
+          "path": "ect_analysis/channels.py",
+          "recorded_sha256": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+          "release_sha256": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/cli.py",
+          "recorded_sha256": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+          "release_sha256": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/constants.py",
+          "recorded_sha256": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+          "release_sha256": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/mesh.py",
+          "recorded_sha256": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+          "release_sha256": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/metrics.py",
+          "recorded_sha256": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+          "release_sha256": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/models.py",
+          "recorded_sha256": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+          "release_sha256": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/phantoms.py",
+          "recorded_sha256": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+          "release_sha256": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/pipeline.py",
+          "recorded_sha256": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+          "release_sha256": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/plotting.py",
+          "recorded_sha256": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+          "release_sha256": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/reporting.py",
+          "recorded_sha256": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+          "release_sha256": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/selftest.py",
+          "recorded_sha256": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+          "release_sha256": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+          "status": "exact_match"
+        },
+        {
+          "path": "run_q512_benchmark_revision.py",
+          "recorded_sha256": "d18f6b6c71353fa21978028083067e7bd09576bcb43dd42fb0627cf81bc133ed",
+          "release_sha256": "d18f6b6c71353fa21978028083067e7bd09576bcb43dd42fb0627cf81bc133ed",
+          "status": "exact_match"
+        },
+        {
+          "path": "benchmark_revision.py",
+          "recorded_sha256": "d688ea684fee57bbc652418fc043b50f924a76338d42406b35b1c87b29eaef9b",
+          "release_sha256": "d688ea684fee57bbc652418fc043b50f924a76338d42406b35b1c87b29eaef9b",
+          "status": "exact_match"
+        },
+        {
+          "path": "run_q512_selection_revision.py",
+          "recorded_sha256": "f238300c0256495c81c4930fae02f3e5a870e2026b451e0728f8557b3580a403",
+          "release_sha256": "f238300c0256495c81c4930fae02f3e5a870e2026b451e0728f8557b3580a403",
+          "status": "exact_match"
+        }
+      ]
+    },
+    {
+      "study": "model_mismatch",
+      "reference_manifest": "reference_results/model_mismatch/run_20261015T093001_941649Z/model_mismatch_manifest.json",
+      "files": [
+        {
+          "path": "run_q512_revision.py",
+          "recorded_sha256": "65501f4265bfb508be5a45bc779e4ed3d55b928ce9c3cf1e61e66afbed693c5f",
+          "release_sha256": "65501f4265bfb508be5a45bc779e4ed3d55b928ce9c3cf1e61e66afbed693c5f",
+          "status": "exact_match"
+        },
+        {
+          "path": "main.py",
+          "recorded_sha256": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+          "release_sha256": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+          "status": "exact_match"
+        },
+        {
+          "path": "analyze_mapping_sensitivity.py",
+          "recorded_sha256": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+          "release_sha256": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/__init__.py",
+          "recorded_sha256": "7bb8bcb9dfc48db7721ddd65725f26c1a1c0f9af0d49835ee1b3aa4500385d0b",
+          "release_sha256": "14bb28852bd3fc1531afeb9538caed23974ea2718473810d631cbb9bd94833b9",
+          "status": "metadata_only_version_string_1.0.0_to_1.1.0"
+        },
+        {
+          "path": "ect_analysis/channels.py",
+          "recorded_sha256": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+          "release_sha256": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/cli.py",
+          "recorded_sha256": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+          "release_sha256": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/constants.py",
+          "recorded_sha256": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+          "release_sha256": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/mesh.py",
+          "recorded_sha256": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+          "release_sha256": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/metrics.py",
+          "recorded_sha256": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+          "release_sha256": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/models.py",
+          "recorded_sha256": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+          "release_sha256": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/phantoms.py",
+          "recorded_sha256": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+          "release_sha256": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/pipeline.py",
+          "recorded_sha256": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+          "release_sha256": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/plotting.py",
+          "recorded_sha256": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+          "release_sha256": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/reporting.py",
+          "recorded_sha256": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+          "release_sha256": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+          "status": "exact_match"
+        },
+        {
+          "path": "ect_analysis/selftest.py",
+          "recorded_sha256": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+          "release_sha256": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab",
+          "status": "exact_match"
+        },
+        {
+          "path": "run_q512_model_mismatch.py",
+          "recorded_sha256": "693ea11a2a4672c3ecb848a9922b4553c54de97a6c14cbbebc187410240ebb96",
+          "release_sha256": "693ea11a2a4672c3ecb848a9922b4553c54de97a6c14cbbebc187410240ebb96",
+          "status": "exact_match"
+        },
+        {
+          "path": "run_q512_selection_revision.py",
+          "recorded_sha256": "f238300c0256495c81c4930fae02f3e5a870e2026b451e0728f8557b3580a403",
+          "release_sha256": "f238300c0256495c81c4930fae02f3e5a870e2026b451e0728f8557b3580a403",
+          "status": "exact_match"
+        }
+      ]
+    }
+  ]
+}

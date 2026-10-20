@@ -1,0 +1,28 @@
+check,status,detail
+A: channel count,pass,496 channels; expected 496
+B: channel count,pass,496 channels; expected 496
+C: channel count,pass,496 channels; expected 496
+D: channel count,pass,496 channels; expected 496
+E: channel count,pass,496 channels; expected 496
+F: channel count,pass,496 channels; expected 496
+G: channel count,pass,496 channels; expected 496
+H: channel count,pass,496 channels; expected 496
+I: channel count,pass,496 channels; expected 496
+J: channel count,pass,496 channels; expected 496
+K: channel count,pass,496 channels; expected 496
+L: channel count,pass,496 channels; expected 496
+M: channel count,pass,496 channels; expected 496
+N: channel count,pass,496 channels; expected 496
+O: channel count,pass,496 channels; expected 496
+configuration count,pass,15 configurations
+common physical basis,pass,2851/3200 bins occupied by every mesh
+Gini bounds,pass,global envelope Gini range 0.3753--0.4204
+A/B/C mesh-resolution scale consistency,pass,max/min common-basis local_norm_p50 = 1.028; sensitivity_kind=density
+group Gini bounds,pass,group envelope Gini range 0.3639--0.7829
+subset objective monotonicity,pass,All regularized log-determinant curves are non-decreasing
+phantom grid support,pass,45/45 requested physical positions contain at least 2 common bins
+phantom volume-fidelity filter,pass,40/45 supported positions retained at realized/ideal volume ratio >= 0.80
+phantom partial-volume accuracy,pass,realized/ideal sphere-volume ratio 0.834--1.031; 27 quadrature points per bin
+paired phantom positions,pass,40 common physical positions; 5 repeats
+paired statistical comparisons,pass,"630/630 metric-wise pairs; target-paired bootstrap, Wilcoxon tests, and per-metric BH-FDR"
+phantom interpretation,warning,Same linearized S is used for forward and inverse modelling (inverse crime)

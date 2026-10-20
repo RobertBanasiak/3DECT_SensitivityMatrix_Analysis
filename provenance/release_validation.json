@@ -1,0 +1,126 @@
+{
+  "qa_environment": {
+    "python": "3.12.14",
+    "numpy": "2.4.6",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3",
+    "h5py": "3.15.1",
+    "matplotlib": "3.10.7",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+  },
+  "checks": [
+    {
+      "name": "run_q512_revision.py --self-test",
+      "exit_code": 0,
+      "seconds": 1.9359401430001526,
+      "output_tail": "SELF-TEST PASSED\nMAPPING SENSITIVITY SELF-TEST PASSED\n  test: Q=512 complete\n  test: Q=512 complete\n  test: Q=512 complete\nQ512 REVISION SELF-TEST PASSED\n"
+    },
+    {
+      "name": "run_q512_selection_revision.py --self-test",
+      "exit_code": 0,
+      "seconds": 1.3708527900007539,
+      "output_tail": "SELF-TEST PASSED\nMAPPING SENSITIVITY SELF-TEST PASSED\n  test: Q=512 complete\n  test: Q=512 complete\n  test: Q=512 complete\nQ512 REVISION SELF-TEST PASSED\nSELF-TEST PASSED\nBASELINE SELF-TEST PASSED\nSELF-TEST PASSED\nSTABILITY SELF-TEST PASSED\n  A: Q=512 complete\n  B: Q=512 complete\n  BASELINES A: 4 deterministic methods and 2 random sets completed.\n  BASELINES B: 4 deterministic methods and 2 random sets completed.\n  A: Q=512 complete\n  B: Q=512 complete\n  STABILITY A: 8 cases completed.\n  STABILITY B: 8 cases completed.\nQ512 STUDY OBSERVER INTEGRATION SELF-TEST PASSED\nQ512 SELECTION REVISION SELF-TEST PASSED\n"
+    },
+    {
+      "name": "run_q512_benchmark_revision.py --self-test",
+      "exit_code": 0,
+      "seconds": 1.302622510999754,
+      "output_tail": "SELF-TEST PASSED\nMAPPING SENSITIVITY SELF-TEST PASSED\n  test: Q=512 complete\n  test: Q=512 complete\n  test: Q=512 complete\nQ512 REVISION SELF-TEST PASSED\n  test: Q=512 complete\n  BENCHMARK test common_basis_mapping: 0.002 s\n  BENCHMARK test full_set_gram_and_eigenvalues: 0.000 s\n  BENCHMARK test greedy_selection: 0.000 s\n  BENCHMARK test matched_reconstruction_benchmark: 0.001 s\nQ512 BENCHMARK INTEGRATION SELF-TEST PASSED\nQ512 BENCHMARK SELF-TEST PASSED\n"
+    },
+    {
+      "name": "run_q512_model_mismatch.py --self-test",
+      "exit_code": 0,
+      "seconds": 1.9040062580006634,
+      "output_tail": "SELF-TEST PASSED\nMAPPING SENSITIVITY SELF-TEST PASSED\n  test: Q=512 complete\n  test: Q=512 complete\n  test: Q=512 complete\nQ512 REVISION SELF-TEST PASSED\n  FORWARD A: noiseless, 3 inverse models complete\n  FORWARD A: iid, 3 inverse models complete\n  FORWARD A: shared_electrode_rho_0.25, 3 inverse models complete\n  FORWARD A: shared_electrode_rho_0.50, 3 inverse models complete\n  FORWARD B: noiseless, 3 inverse models complete\n  FORWARD B: iid, 3 inverse models complete\n  FORWARD B: shared_electrode_rho_0.25, 3 inverse models complete\n  FORWARD B: shared_electrode_rho_0.50, 3 inverse models complete\n  FORWARD C: noiseless, 3 inverse models complete\n  FORWARD C: iid, 3 inverse models complete\n  FORWARD C: shared_electrode_rho_0.25, 3 inverse models complete\n  FORWARD C: shared_electrode_rho_0.50, 3 inverse models complete\nQ512 MODEL MISMATCH SELF-TEST PASSED\n"
+    }
+  ],
+  "full_native_input_runs_recomputed": false,
+  "note": "Reference runs are preserved original author-run outputs. These release checks use synthetic data and stored reference tables.",
+  "pytest": {
+    "exit_code": 0,
+    "passed": 4,
+    "duration_seconds": 1.91
+  },
+  "reference_statistics": {
+    "configuration_summary_rows": 15,
+    "pairwise_rows": 630,
+    "summaries_bitwise_equal": true,
+    "paired_improvements_and_bootstrap_intervals_bitwise_equal": true,
+    "p_values_nonidentical_last_bits": 41,
+    "p_values_max_abs_difference": 2.7755575615628914e-17,
+    "q_values_nonidentical_last_bits": 25,
+    "q_values_max_abs_difference": 5.551115123125783e-17,
+    "all_numeric_values_within_rtol_1e_12_atol_1e_15": true,
+    "q_005_decisions_unchanged": true,
+    "minimum_reference_q_distance_from_005": 0.000469195080362389,
+    "note": "Original strict bitwise reference check identified p/q rounding differences between the recorded Windows run and Linux QA. All other numeric columns matched exactly. Internal within-run export guards remain unchanged."
+  },
+  "compile_all_python_sources": true,
+  "figure_1_reference_replot": {
+    "exit_code": 0,
+    "configurations": 15,
+    "modes_per_configuration": 496,
+    "common_basis_bins": 2851,
+    "output_formats": [
+      "png",
+      "pdf",
+      "svg",
+      "csv",
+      "json"
+    ]
+  },
+  "release_metadata_consistent": true,
+  "complete": true,
+  "final_packaging": {
+    "python_source_files_unchanged_from_prepared_release": 26,
+    "reference_files_unchanged": 118,
+    "complete_original_studies": 6,
+    "recorded_source_hash_comparisons_verified": 100,
+    "supplementary_data_s1": {
+      "rows": 630,
+      "metrics": 6,
+      "pairs_per_metric": 105,
+      "paired_positions": 40,
+      "byte_identical_to_primary": true,
+      "sha256": "95dfc593ec30d777f59e2d34d551f1aad8f2376e05f1aa14a2510c60ffedef38"
+    },
+    "version_and_dependency_metadata_consistent": true,
+    "checks_run_on_final_tree": [
+      {
+        "command": "-m pytest -q -p no:cacheprovider",
+        "exit_code": 0,
+        "seconds": 2.913,
+        "output_tail": "....                                                                     [100%]\n4 passed in 2.18s\n"
+      },
+      {
+        "command": "run_q512_revision.py --self-test",
+        "exit_code": 0,
+        "seconds": 1.411,
+        "output_tail": "SELF-TEST PASSED\nMAPPING SENSITIVITY SELF-TEST PASSED\n  test: Q=512 complete\n  test: Q=512 complete\n  test: Q=512 complete\nQ512 REVISION SELF-TEST PASSED\n"
+      },
+      {
+        "command": "run_q512_selection_revision.py --self-test",
+        "exit_code": 0,
+        "seconds": 1.552,
+        "output_tail": "SELF-TEST PASSED\nMAPPING SENSITIVITY SELF-TEST PASSED\n  test: Q=512 complete\n  test: Q=512 complete\n  test: Q=512 complete\nQ512 REVISION SELF-TEST PASSED\nSELF-TEST PASSED\nBASELINE SELF-TEST PASSED\nSELF-TEST PASSED\nSTABILITY SELF-TEST PASSED\n  A: Q=512 complete\n  B: Q=512 complete\n  BASELINES A: 4 deterministic methods and 2 random sets completed.\n  BASELINES B: 4 deterministic methods and 2 random sets completed.\n  A: Q=512 complete\n  B: Q=512 complete\n  STABILITY A: 8 cases completed.\n  STABILITY B: 8 cases completed.\nQ512 STUDY OBSERVER INTEGRATION SELF-TEST PASSED\nQ512 SELECTION REVISION SELF-TEST PASSED\n"
+      },
+      {
+        "command": "run_q512_benchmark_revision.py --self-test",
+        "exit_code": 0,
+        "seconds": 1.266,
+        "output_tail": "SELF-TEST PASSED\nMAPPING SENSITIVITY SELF-TEST PASSED\n  test: Q=512 complete\n  test: Q=512 complete\n  test: Q=512 complete\nQ512 REVISION SELF-TEST PASSED\n  test: Q=512 complete\n  BENCHMARK test common_basis_mapping: 0.002 s\n  BENCHMARK test full_set_gram_and_eigenvalues: 0.000 s\n  BENCHMARK test greedy_selection: 0.000 s\n  BENCHMARK test matched_reconstruction_benchmark: 0.001 s\nQ512 BENCHMARK INTEGRATION SELF-TEST PASSED\nQ512 BENCHMARK SELF-TEST PASSED\n"
+      },
+      {
+        "command": "run_q512_model_mismatch.py --self-test",
+        "exit_code": 0,
+        "seconds": 1.926,
+        "output_tail": "SELF-TEST PASSED\nMAPPING SENSITIVITY SELF-TEST PASSED\n  test: Q=512 complete\n  test: Q=512 complete\n  test: Q=512 complete\nQ512 REVISION SELF-TEST PASSED\n  FORWARD A: noiseless, 3 inverse models complete\n  FORWARD A: iid, 3 inverse models complete\n  FORWARD A: shared_electrode_rho_0.25, 3 inverse models complete\n  FORWARD A: shared_electrode_rho_0.50, 3 inverse models complete\n  FORWARD B: noiseless, 3 inverse models complete\n  FORWARD B: iid, 3 inverse models complete\n  FORWARD B: shared_electrode_rho_0.25, 3 inverse models complete\n  FORWARD B: shared_electrode_rho_0.50, 3 inverse models complete\n  FORWARD C: noiseless, 3 inverse models complete\n  FORWARD C: iid, 3 inverse models complete\n  FORWARD C: shared_electrode_rho_0.25, 3 inverse models complete\n  FORWARD C: shared_electrode_rho_0.50, 3 inverse models complete\nQ512 MODEL MISMATCH SELF-TEST PASSED\n"
+      }
+    ],
+    "checked_at_utc": "2026-10-16T13:42:05.903423+00:00",
+    "full_native_input_runs_recomputed": false,
+    "distributed_files_including_checksum_manifest": 160,
+    "native_input_matrices_in_archive": false,
+    "temporary_caches_in_archive": false
+  }
+}

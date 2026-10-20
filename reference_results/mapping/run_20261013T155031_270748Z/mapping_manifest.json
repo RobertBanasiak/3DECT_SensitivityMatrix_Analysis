@@ -1,0 +1,323 @@
+{
+  "created_utc": "2026-10-13T15:50:31.271751+00:00",
+  "configuration_source": "main.py PYCHARM_CONFIG",
+  "source_parameters": {
+    "input_dir": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices",
+    "output_dir": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\SIMPAT_results",
+    "files": null,
+    "allow_missing": false,
+    "mesh_unit": "mm",
+    "sensitivity_kind": "density",
+    "dtype": "float64",
+    "grid_r": 10,
+    "grid_theta": 16,
+    "grid_z": 20,
+    "score_noise_std": 1.0,
+    "alpha_rel": 0.001,
+    "alpha_sweep": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "subset_k": 128,
+    "analyses": "global,groups,subsets,phantoms",
+    "phantom_radius_mm": 20.0,
+    "phantom_r_samples": 3,
+    "phantom_theta_samples": 4,
+    "phantom_z_samples": 5,
+    "phantom_noise_repeats": 5,
+    "phantom_noise_rel": 0.01,
+    "phantom_lambda_rel": 0.01,
+    "phantom_threshold": 0.5,
+    "phantom_min_bins": 2,
+    "phantom_subsamples_per_axis": 3,
+    "phantom_min_volume_ratio": 0.8,
+    "bootstrap_samples": 2000,
+    "seed": 123,
+    "figure_dpi": 300,
+    "self_test": false
+  },
+  "mapping_options": {
+    "mapping_grids": [
+      [
+        10,
+        16,
+        20
+      ],
+      [
+        20,
+        32,
+        40
+      ]
+    ],
+    "subdivision_levels": [
+      0,
+      2,
+      3
+    ],
+    "mapping_block_cells": 4096,
+    "quadrature_point_budget": 262144,
+    "no_selection": false
+  },
+  "platform": "Windows-11-10.0.26300-SP0",
+  "software": {
+    "python": "3.12.4",
+    "numpy": "2.4.6",
+    "scipy": "1.16.3",
+    "pandas": "2.3.3",
+    "h5py": "3.15.1"
+  },
+  "notes": [
+    "Quadrature samples equal-volume child-tetrahedron centroids of the unchanged native piecewise-constant sensitivity.",
+    "This is approximate volume integration, not exact curved tetrahedron--bin intersection or an independent FEM solution.",
+    "Finite subdivision levels do not prove asymptotic convergence or guaranteed monotonic error reduction.",
+    "Within each grid the original centroid common support is fixed for all quadrature levels.",
+    "Between grids the centroid-common support and its physical coverage can change; both are reported.",
+    "The full-cylinder scope includes zero bins on a fixed physical domain and isolates this domain-coverage confound.",
+    "Reference-grid centroid/common-support metrics use the original shared-alpha rule and original greedy routine.",
+    "Cross-grid comparison uses G/bin_volume and spatial S/bin_volume with fixed alpha_density=alpha_ref/bin_volume_ref.",
+    "Equivalent raw alpha_grid scales with bin volume; alpha is not separately recalibrated for variants.",
+    "This volume scaling corresponds to an L2 volume penalty on the piecewise-constant parameter field.",
+    "Cross-grid raw integrated sensitivities and raw spectral energy must not be compared without their volume scaling.",
+    "Frobenius operator comparisons are within a grid; channel-Gram comparisons use volume-normalised matrices.",
+    "Reported geometric multibin fractions are quadrature diagnostics, not exact intersection statistics.",
+    "Times describe this analysis execution, not reconstruction or acquisition performance.",
+    "No original source, native input, or previous analysis output is overwritten."
+  ],
+  "completed_configurations": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O"
+  ],
+  "inputs": [
+    {
+      "label": "A",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshA.mat",
+      "n_cells": 479751,
+      "n_vertices": 87805,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000003,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "b932d44840540f4ecff11d2190cb22383216b40dae05c3ae4f70ce33eb5833d9"
+    },
+    {
+      "label": "B",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshB.mat",
+      "n_cells": 62362,
+      "n_vertices": 12344,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "c7e5bbbbc428197a49f4d742eeaf9c7477ea6348c5ec2d8bba22d3d31fdb8590"
+    },
+    {
+      "label": "C",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshC.mat",
+      "n_cells": 8161,
+      "n_vertices": 1856,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "68c3838bbfd4a47044748e5701d2be3c569b17e6503792466f375201c80d86fb"
+    },
+    {
+      "label": "D",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshD.mat",
+      "n_cells": 128745,
+      "n_vertices": 31045,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000003,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "1a2ce14a931fa56fb314b982fb74fb82522aa40c9136d56e56e8c6ec224ee0ab"
+    },
+    {
+      "label": "E",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshE.mat",
+      "n_cells": 61760,
+      "n_vertices": 12227,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "f8bcca9319bed7fe7a1a58147d99a95df9490dd72c65a8a69b6d12e64acef40b"
+    },
+    {
+      "label": "F",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshF.mat",
+      "n_cells": 61944,
+      "n_vertices": 12187,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000003,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "198317a1cf90ec019ada35e754b10d7fad876e49b5caad912a121dd961497005"
+    },
+    {
+      "label": "G",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshG.mat",
+      "n_cells": 62517,
+      "n_vertices": 12341,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "90e1e2fb4602334712306c4e7272774624bbcac64d54fa1f9c8a2fed0f99e6ae"
+    },
+    {
+      "label": "H",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshH.mat",
+      "n_cells": 62296,
+      "n_vertices": 12312,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "d89855c1c4ac139df6e8a41eb448eef1ad2ad4d2307ba5ced3a2226ff9da7a6c"
+    },
+    {
+      "label": "I",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshI.mat",
+      "n_cells": 61648,
+      "n_vertices": 12202,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000003,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "bd350cfaf0b99bb7272e02b2a90ef8a175a83afe35774a687a1d91c1fbbe3689"
+    },
+    {
+      "label": "J",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshJ.mat",
+      "n_cells": 62362,
+      "n_vertices": 12344,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "55504ee875ddbfb8d44883d35ba0afc14e88b671076a7340630b76f3cdb7a3aa"
+    },
+    {
+      "label": "K",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshK.mat",
+      "n_cells": 62362,
+      "n_vertices": 12344,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "3f81fca600238f07f5534f20a6aaf18b6fcfaea00b2de75b20d39a9567f094f7"
+    },
+    {
+      "label": "L",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshL.mat",
+      "n_cells": 62362,
+      "n_vertices": 12344,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "f1dfc42fd8eb9ffea9fd0280b15597dc75a60aa6ab814082ab0ea1682edf32f2"
+    },
+    {
+      "label": "M",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshM.mat",
+      "n_cells": 62362,
+      "n_vertices": 12344,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "0c815d2199523c3576b767718fa75a6401fcbbf0a14d28afbc0d6dc732c99ac1"
+    },
+    {
+      "label": "N",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshN.mat",
+      "n_cells": 62362,
+      "n_vertices": 12344,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "5fba65a5d9c451e80b41cbc1e40a12f29d8fc26bbed00c647b2a7386add59282"
+    },
+    {
+      "label": "O",
+      "path": "C:\\Users\\Robert\\PycharmProjects\\3DECT_SensitivityMatrix_Analysis\\matrices\\meshO.mat",
+      "n_cells": 62362,
+      "n_vertices": 12344,
+      "n_channels": 496,
+      "r_max_mm": 75.00000000000001,
+      "z_min_mm": 0.0,
+      "z_max_mm": 315.0,
+      "sha256": "df52e70defbb1558686349fe52976da7bf11cfb46a56ccbace37086d452625c6"
+    }
+  ],
+  "grid_shapes": [
+    [
+      10,
+      16,
+      20
+    ],
+    [
+      20,
+      32,
+      40
+    ]
+  ],
+  "subdivision_levels": [
+    0,
+    2,
+    3
+  ],
+  "primary_grid": [
+    10,
+    16,
+    20
+  ],
+  "primary_centroid_common_parameters": 2851,
+  "regularization": {
+    "common_reference_scale": 1341931.4099132943,
+    "alpha_reference": 1341.9314099132944,
+    "alpha_density": 0.7714314553447922,
+    "reference_bin_volume_mm3": 1739.534213462318
+  },
+  "mapping_and_global_metrics_seconds": 329.28198169999996,
+  "scorecard_rows": 180,
+  "available_channels": 496,
+  "study_dimensions_match_manuscript": true,
+  "complete": true,
+  "error": null,
+  "complete_analysis_elapsed_seconds": 338.1181843000004,
+  "source_sha256": {
+    "analyze_mapping_sensitivity.py": "6bbd58fa603e1d7a278732fee64237ab8deb1608f92cda5e0cdb6108a2bf1798",
+    "main.py": "60f6c3dbb0b5ac9d0ed64f76b884c1aa2c9ca7d64ee8f78a521ceb2c77a464bc",
+    "ect_analysis/__init__.py": "7bb8bcb9dfc48db7721ddd65725f26c1a1c0f9af0d49835ee1b3aa4500385d0b",
+    "ect_analysis/channels.py": "1e6576215cbaaf05690acdebfc3d8192787fedc27594a5da3f393c4f1d476f5d",
+    "ect_analysis/cli.py": "23fb824fd055197c80c7e35245dd50a5ce4bc4fe6900fae16a43b302a4d51027",
+    "ect_analysis/constants.py": "cfc235add5c8c0e21f92c78fa4ea90bcb914a0aabad75e5a273c4aeb4c14e42c",
+    "ect_analysis/mesh.py": "c8c6f2a8582c661c79f5ca98ecb3eddb2dabf6aac05f369a8606aafaf6fa770a",
+    "ect_analysis/metrics.py": "312af44d9e4c18064ca8f6d149990279eeea85c0c2bdfef85866142b68cc2a86",
+    "ect_analysis/models.py": "443f4f3186a0e682d3ed3c77b517a642e912a8b3205c5d7d96a62a205816ba9c",
+    "ect_analysis/phantoms.py": "341eecbf83c951bc7f4f7a60042bd8202bec0c815b47bfe9c2c5a1223adf06fc",
+    "ect_analysis/pipeline.py": "1bfc06602c058445583ef93fb9ebccc7df2202071e34985870f032281436b621",
+    "ect_analysis/plotting.py": "922b4a5019f67ad6fc229f2117c0502a9aa0aae30dd1de4f5b9e3eedde64713c",
+    "ect_analysis/reporting.py": "041f7737f4802b6d34869db935ce28be6c39eeeaeaccaf540634828d0e97ed83",
+    "ect_analysis/selftest.py": "989c011af7916684913533ef5c006928d79a9a7ac6b33ae371fdb36ad5284aab"
+  }
+}
